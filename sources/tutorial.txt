@@ -169,10 +169,10 @@ Definition of schema
     CASCADE_CONFIG_INDEX_SCHEMA => array(
        ...
        'sample : default' => array(
-           'dataformat.prefix'  => 'Gree_Service_Sample_Cascade_DataFormat',
+           'dataformat.prefix'  => 'Gree_Service_Sample_Cascade_DataFormat_',
            'dataformat.suffix'  =>  null,
-           'gateway.prefix'     => 'Gree_Service_Sample_Cascade_Gateway',
-           'gateway.suffix'     =>  null
+           'gateway.prefix'     => 'Gree_Service_Sample_Cascade_Gateway_',
+           'gateway.suffix'     =>  null,
            'load.path'          => '/home/gree/service/sample',
            'load.ignore_prefix' => 'Gree_Service_Sample',
            'load.file_ext'      => '.php',
